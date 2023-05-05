@@ -13,4 +13,6 @@ class ApplicationController < ActionController::Base
   def active_admin_controller?
     is_a?(ActiveAdmin::BaseController)
   end
+
+  #prueba
 end
